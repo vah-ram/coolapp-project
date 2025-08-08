@@ -1,0 +1,658 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+img {
+    pointer-events: none;
+}
+
+.mainBigSection {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.topMainHeader {
+    width: 80%;
+    margin: 0 auto;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topMainHeader .headerTopPartDiv {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    background: white;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #367BF5;
+}
+.headerTopPartDiv .topLogoSpan {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+}
+
+.headerTopPartDiv .topLogoSpan div {
+    width: 50px;
+    height: 50px;
+    background: gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerTopPartDiv .topLogoSpan div img {
+    width: 50px;
+    height: 50px;
+}
+
+.headerTopPartDiv .titleCoolappText {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.headerTopPartDiv .logosSpan {
+    display: flex;
+    gap: 30px;
+}
+
+.topMainHeader .headerBottomPartDiv {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.topMainHeader .headerBottomPartDiv .headerUl {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.topMainHeader .headerBottomPartDiv .headerUl li {
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.topMainHeader .headerBottomPartDiv .headerUl li p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.topMainHeader .headerBottomPartDiv .headerUl li:first-child {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(187, 187, 187);
+}
+
+.headerBottomPartDiv .headerCreateAccountBtn {
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #367BF5;
+    color: #367BF5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-family: sans-serif;
+    font-size: 13px;
+    background: transparent;
+    letter-spacing: 1px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.firstPartSection {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.firstPartSection h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    transform: translate(0, 20px);
+    color: #80688E;
+}
+
+.firstPartSection p {
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+    width: 60%;
+    transform: translate(0, 60px);
+}
+
+.firstPartSection .btnsDiv {
+    display: flex;
+    gap: 20px;
+    transform: translate(0, 120px);
+}
+
+.firstPartSection .btnsDiv .downloadBtn {
+    width: 170px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    background: #367BF5;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.firstPartSection .btnsDiv .freeTrialBtn {
+    width: 170px;
+    height: 50px;
+    border: 1px solid #367BF5;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #367BF5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.firstPartSection .mainComputerImg {
+    width: 100%;
+    transform: translate(0, -40px);
+    z-index: -1;
+}
+
+.futuresSection {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 150px auto;
+    gap: 100px;
+}
+
+.futuresSection h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    color: #80688E;
+}
+
+.futuresSection .futureItem {
+    width: 100%;
+    height: 320px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    position: relative;
+}
+
+.futureItem .textFuturePart {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.futureItem .textFuturePart .left-text-logo {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.futureItem .textFuturePart h2 {
+    width: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.futureItem .textFuturePart p {
+    font-size: 19px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.textFuturePart .learnBtn {
+    width: 120px;
+    height: 30px;
+    color: #367BF5;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    position: relative;
+    cursor: pointer;
+    background: transparent;
+    text-align: left;
+}
+
+.textFuturePart .learnBtn::after {
+    content: '';
+    position: absolute;
+    right: -5px;
+    width: 20px;
+    height: 20px;
+    background: rgba(219, 219, 219, 0.838);
+    z-index: 1;
+}
+
+.textFuturePart .learnBtn p {
+    position: absolute;
+    left: 0;
+    margin: auto 0;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.textFuturePart .learnBtn img {
+    position: absolute;
+    right: 0;
+    z-index: 2;
+    width: 10px;
+    height: 10px;
+}
+
+.futureItem .imgFuturePart {
+    width: 50%;
+    height: 100%;
+    background: url('../img/future3.jpg') center center / cover no-repeat;
+    border-radius: 15px;
+    position: relative;
+}
+
+.futuresSection .futureItem .imgFuturePart:before {
+    content: '';
+    position: absolute;
+    width: 144px;
+    height: 144px;
+    background: url('../img/future3-bio.png') center center / cover no-repeat;
+    left: -50px;
+    top: 50px;
+}
+
+.futuresSection .futureItem:nth-child(2) .imgFuturePart {
+    background: url('../img/future1.jpg') center center / cover no-repeat;
+    position: relative;
+}
+
+.futuresSection .futureItem:nth-child(2) .imgFuturePart:before {
+    background: url('../img/future1-bio.png') center center / cover no-repeat;
+    position: absolute;
+}
+
+.futuresSection .futureItem:nth-child(3) .imgFuturePart {
+    background: url('../img/future2.jpg') center center / cover no-repeat;
+    position: relative;
+
+}
+
+.futuresSection .futureItem:nth-child(3) .imgFuturePart::before {
+    background: url('../img/future2-bio.png') center center / cover no-repeat;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 220px;
+    height: 200px;
+    transform: translate(320px, 70px);
+}
+
+/* ___________________ */
+
+#advertisementCenterDiv {
+    width: 80%;
+    height: 100px;
+    position: relative;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#advertisementCenterDiv .advertImgSpan {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+}
+
+#advertisementCenterDiv .advertTextSpan {
+    position: absolute;
+    left: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.advertTextSpan h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.advertTextSpan h4 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.advertTextSpan h4 b {
+    color: red;
+}
+
+#advertisementCenterDiv button {
+    position: absolute;
+    width: 270px;
+    height: 65px;
+    box-shadow: 0 10px 10px rgba(175, 175, 175, 0.548);
+    border: none;
+    border-radius: 15px;
+    right: 0;
+    background: #367BF5;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* _________ */
+
+.antifuturesFooter {
+    width: 80%;
+    margin: 100px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.antifuturesFooter h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.antifuturesFooter h3 {
+    width: 70%;
+    color: #367BF5;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+}
+
+.antifuturesFooter .futureItemsDiv {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.antifuturesFooter .futureItemsDiv div {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.antifuturesFooter .futureItemsDiv div:nth-child(1) span:last-child {
+    background: #E5EFFF;
+    border-radius: 10px;
+}
+
+.antifuturesFooter .futureItemsDiv div:nth-child(2) span:first-child {
+    box-shadow: 0 0 10px rgba(190, 190, 190, 0.748);
+    border-radius: 10px;
+}
+
+.antifuturesFooter .futureItemsDiv div span {
+    text-align: left;
+    padding: 0 30px 0 90px;
+    position: relative;
+}
+
+.antifuturesFooter .futureItemsDiv div span img {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.antifuturesFooter .futureItemsDiv div span h2 {
+    font-weight: lighter;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+
+.antifuturesFooter .futureItemsDiv div span p {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+    opacity: .8;
+    line-height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* _____________________ */
+
+.materialFooter {
+    width: 80%;
+    height: 60vh;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.materialFooter div {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 160px;
+    position: relative;
+}
+
+.materialFooter div img {
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+
+.materialFooter div h5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    margin-top: 20px;
+}
+
+.materialFooter div:first-child h5 {
+    color: #2FA84F;
+}
+
+.materialFooter div:last-child h5 {
+    color: #367BF5;
+}
+
+.materialFooter div h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    line-height: 50px;
+    margin-top: 30px;
+}
+
+.materialFooter div p {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.materialFooter div button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.materialFooter div:first-child button {
+    background: #2FA84F;
+}
+
+.materialFooter div:last-child button {
+    background: #367BF5;
+}
+
+
+
+/* ____________________________ */
+
+.bottomInfoFooter {
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.titleInfo {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    gap: 20px;
+    align-items: center;
+}
+
+.titleInfo span {
+    width: 50px;
+    height: 50px;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.bottomInfoFooter ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.bottomInfoFooter ul span {
+    width: 5px;
+    height: 5px;
+    background: rgba(128, 128, 128, 0.6);
+    border-radius: 50%;
+}
+
+.bottomInfoFooter ul li {
+    list-style: none;
+}
+
+.bottomInfoFooter ul li p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.bottomInfoFooter .inputBottomSpan {
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(190, 190, 190, 0.531);
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px 5px 15px;
+    margin-top: 70px;
+}
+
+.inputBottomSpan input {
+    width: 60%;
+    height: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 20px;
+}
+
+.inputBottomSpan button {
+    width: 180px;
+    height: 40px;
+    background: #C6CACC;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.bottomInfoFooter .logosBottomDiv {
+    display: flex;
+    gap: 25px;
+    margin-top: 80px;
+}
+
+.bottomInfoFooter .bottomInfoText {
+    opacity: .7;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: 50px;
+    line-height: 20px;
+}
