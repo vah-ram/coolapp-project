@@ -6,6 +6,10 @@ img {
     pointer-events: none;
 }
 
+body {
+    background: white;
+}
+
 .mainBigSection {
     overflow: hidden;
     display: flex;
