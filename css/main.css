@@ -142,20 +142,11 @@ img {
     text-align: center;
 }
 
-.firstPartSection::after {
-    content: '';
-    width: 80%;
-    height: 360px;
-    position: absolute;
-    bottom: 90px;
-    background: url('../img/main-computer-img-continuation.png') center center / cover no-repeat;
-}
-
 .firstPartSection h1 {
     font-family: "Bai Jamjuree", sans-serif;
     font-size: 48px;
     font-weight: 700;
-    transform: translate(0, 20px);
+    transform: translate(0, 120px);
     color: #80688E;
 }
 
@@ -165,13 +156,15 @@ img {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 30px;
     letter-spacing: 0.15px;
-    transform: translate(0, 60px);
+    margin-top: 135px;
+    z-index: 2;
 }
 
 .firstPartSection .btnsDiv {
     display: flex;
     gap: 20px;
-    transform: translate(0, 120px);
+    margin-top: 25px;
+    z-index: 2;
 }
 
 .firstPartSection .btnsDiv .downloadBtn {
@@ -209,10 +202,27 @@ img {
     cursor: pointer;
 }
 
+.firstPartSection .mainComputerImgSpan {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+.firstPartSection .mainComputerImgSpan::before {
+    content: '';
+    position: absolute;
+    width: 65em;
+    height: 25em;
+    background: url('../img/main-computer-img-continuation.png') center center / cover no-repeat;
+    z-index: 2;
+    bottom: 115px;
+}
+
 .firstPartSection .mainComputerImg {
-    width: 100%;
+    width: 80em;
     transform: translate(0, -40px);
-    z-index: -1;
+    z-index: 1;
 }
 
 .futuresSection {
