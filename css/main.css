@@ -486,7 +486,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 60px;
+    margin: 60px auto;
     font-family: 'Body 1 / Roboto', sans-serif;
     gap: 40px;
 }
@@ -497,6 +497,7 @@ body {
     display: flex;
     flex-direction: row;
     gap: 20px;
+    margin: 0 auto;
 }
 
 .antifuturesFooter .futureItemsDiv div:nth-child(1) span:last-child {
