@@ -1,8 +1,4 @@
-*{padding: 0; margin: 0; box-sizing: border-box;}
-
-img {
-    pointer-events: none;
-}
+*{padding: 0; margin: 0; box-sizing: border-box; }
 
 body {
     background: white;
@@ -100,7 +96,7 @@ body {
 }
 
 .topMainHeader .headerBottomPartDiv .headerUl li p{
-    font-family: 'Body 1 / Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
 }
@@ -165,7 +161,7 @@ body {
 .firstPartSection p {
     font-size: 20px;
     font-weight: 400;
-    font-family: 'Body 1 / Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 30px;
     letter-spacing: 0.15px;
     margin-top: 135px;
@@ -190,7 +186,7 @@ body {
     font-size: 14px;
     background: #367BF5;
     color: white;
-    font-family: 'Button / Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
     cursor: pointer;
@@ -208,7 +204,7 @@ body {
     font-size: 14px;
     background: white;
     color: #367BF5;
-    font-family: 'Button / Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     letter-spacing: 1px;
     cursor: pointer;
@@ -289,7 +285,7 @@ body {
 
 .futureItem .textFuturePart p {
     font-size: 20px;
-    font-family: 'Body 1 / Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 30px;
     margin-top: 20px;
@@ -329,7 +325,7 @@ body {
     margin: auto 0;
     font-size: 15px;
     font-weight: bolder;
-    font-family: 'Body 1 / Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .textFuturePart .learnBtn img {
@@ -432,7 +428,7 @@ body {
 }
 
 .advertTextSpan h4 {
-    font-family: 'Body 1 / Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 1px;
@@ -483,7 +479,7 @@ body {
     color: #367BF5;
     font-size: 25px;
     font-weight: bolder;
-    font-family: 'Body 1 / Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin-top: 40px;
 }
 
@@ -494,7 +490,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-top: 60px;
-    font-family: 'Body 1 / Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .antifuturesFooter .futureItemsDiv div {
@@ -549,7 +545,7 @@ body {
     opacity: .8;
     line-height: 30px;
     letter-spacing: 0.15px;
-    font-family: 'Body 1 / Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #5E6366;
 }
 
@@ -650,7 +646,9 @@ body {
     font-size: 34px;
     font-weight: 700;
     gap: 20px;
+    letter-spacing: -2%;
     align-items: center;
+    vertical-align: middle;
 }
 
 .titleInfo span {
@@ -683,10 +681,11 @@ body {
 }
 
 .bottomInfoFooter ul li p {
-    font-family: 'Body 1 / Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 400;
     letter-spacing: 0.15px;
+    line-height: 30px;
 }
 
 .bottomInfoFooter .inputBottomSpan {
@@ -700,6 +699,15 @@ body {
     align-items: center;
     padding: 5px 5px 5px 15px;
     margin-top: 70px;
+    position: relative;
+}
+
+.bottomInfoFooter .inputBottomSpan::before {
+    content: '';
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    background: url('../img/bottom-input-message.png') center center / contain no-repeat;
 }
 
 .inputBottomSpan input {
@@ -709,6 +717,8 @@ body {
     outline: none;
     background: transparent;
     font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 35px;
 }
 
 .inputBottomSpan button {
@@ -716,7 +726,7 @@ body {
     height: 44px;
     background: #C6CACC;
     color: white;
-    font-family: 'Body 1 / Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 0.15px;
@@ -727,6 +737,7 @@ body {
 
 .bottomInfoFooter .logosBottomDiv {
     display: flex;
+    flex-direction: row;
     gap: 25px;
     margin-top: 80px;
 }
@@ -734,18 +745,19 @@ body {
 .bottomInfoFooter .logosBottomDiv img {
     width: 56px;
     height: 56px;
+    cursor: pointer;
 }
 
 .bottomInfoFooter .bottomInfoText {
     opacity: .7;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: 400;
     margin-top: 50px;
     line-height: 16px;
 }
 
-@media (min-width: 1700px) {
+@media (min-width: 1800px) {
     .materialFooter {
         gap: 100px;
     }
@@ -761,8 +773,8 @@ body {
     }
 
     .futuresSection {
-        padding-left: 5%;
-        padding-right: 5%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 }
 
