@@ -485,6 +485,7 @@ body {
     height: 70vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-top: 60px;
     font-family: 'Body 1 / Roboto', sans-serif;
     gap: 40px;
@@ -603,7 +604,7 @@ body {
     width: 200px;
     height: 50px;
     position: absolute;
-    bottom: 30px;
+    bottom: 120px;
     border: none;
     border-radius: 5px;
     display: flex;
@@ -627,11 +628,12 @@ body {
 
 .bottomInfoFooter {
     width: 80%;
-    margin: -50px auto;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    transform: translate(0, -100px);
 }
 
 .titleInfo {
@@ -733,6 +735,16 @@ body {
     font-weight: 400;
     margin-top: 50px;
     line-height: 16px;
+}
+
+@media (min-width: 1700px) {
+    .materialFooter {
+        gap: 100px;
+    }
+
+    .antifuturesFooter .futureItemsDiv div {
+        width: 80%;
+    }
 }
 
 @media(max-width: 1024px) {
