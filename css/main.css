@@ -151,13 +151,15 @@ body {
 .firstPartSection h1 {
     font-family: "Bai Jamjuree", sans-serif;
     transform: translate(0, 110px);
-    color: #80688E;
     font-weight: 700;
     font-size: 48px;
     line-height: 106%;
     letter-spacing: -2%;
     text-align: center;
     vertical-align: middle;
+    background: linear-gradient(90deg, #80688E 0%, #4F586A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .firstPartSection p {
@@ -246,7 +248,9 @@ body {
 .futuresSection h1 {
     font-family: "Bai Jamjuree", sans-serif;
     font-size: 45px;
-    color: #80688E;
+    background: linear-gradient(90deg, #80688E 0%, #4F586A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .futuresSection .futureItem {
@@ -469,6 +473,9 @@ body {
     font-family: "Bai Jamjuree", sans-serif;
     font-size: 60px;
     font-weight: 700;
+    background: linear-gradient(90deg, #80688E 0%, #4F586A 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .antifuturesFooter h3 {
@@ -497,7 +504,6 @@ body {
     display: flex;
     flex-direction: row;
     gap: 20px;
-    justify-content: center;
 }
 
 .antifuturesFooter .futureItemsDiv div:nth-child(1) span:last-child {
@@ -745,7 +751,18 @@ body {
     }
 
     .antifuturesFooter .futureItemsDiv div {
-        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    
+    #advertisementCenterDiv {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .futuresSection {
+        padding-left: 10%;
+        padding-right: 10%;
     }
 }
 
