@@ -237,10 +237,11 @@ body {
 
 .futuresSection {
     width: 80%;
+    height: auto;
     display: flex;
     flex-direction: column;
     margin: 150px auto;
-    gap: 150px;
+    gap: 200px;
 }
 
 .futuresSection h1 {
@@ -340,8 +341,8 @@ body {
 }
 
 .futureItem .imgFuturePart {
-    width: 50vmax;
-    height: 50vmin;
+    width: 50em;
+    height: 25em;
     background: url('../img/future3.jpg') center center / cover no-repeat;
     border-radius: 15px;
     position: relative;
