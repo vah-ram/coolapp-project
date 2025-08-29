@@ -240,8 +240,9 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
-    margin: 100px auto;
+    margin: 0 auto;
     gap: 200px;
+    background: red;
 }
 
 .futuresSection h1 {
@@ -250,6 +251,7 @@ body {
     background: linear-gradient(90deg, #80688E 0%, #4F586A 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    transform: translate(0, 100px);
 }
 
 .futuresSection .futureItem {
@@ -790,10 +792,6 @@ body {
 
     .futuresSection {
         width: 60%;
-    }
-
-    .futuresSection h1 {
-        transform: translate(0, 100px);
     }
 
     #advertisementCenterDiv {
