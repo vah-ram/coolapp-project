@@ -240,9 +240,8 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    margin: 50px auto;
     gap: 200px;
-    background: red;
 }
 
 .futuresSection h1 {
@@ -791,7 +790,7 @@ body {
     }
 
     .futuresSection {
-        width: 60%;
+        width: 65%;
     }
 
     #advertisementCenterDiv {
