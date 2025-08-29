@@ -240,7 +240,7 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
-    margin: 150px auto;
+    margin: 100px auto;
     gap: 200px;
 }
 
@@ -793,7 +793,7 @@ body {
     }
 
     .futuresSection h1 {
-        margin-top: 20px;
+        transform: translate(0, 100px);
     }
 
     #advertisementCenterDiv {
