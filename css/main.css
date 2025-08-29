@@ -240,7 +240,7 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
-    margin: 100px auto;
+    margin: 50px auto 130px auto;
     gap: 200px;
 }
 
