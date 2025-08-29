@@ -394,6 +394,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-left: 600px;
 }
 
 #advertisementCenterDiv .advertImgSpan {
@@ -782,8 +783,11 @@ body {
     }
 
     .futuresSection {
-        padding-left: 5%;
-        padding-right: 5%;
+        width: 65%;
+    }
+
+    #advertisementCenterDiv {
+        width: 70%;
     }
 }
 
