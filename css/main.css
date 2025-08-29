@@ -783,10 +783,15 @@ body {
     .materialFooter {
         gap: 150px;
     }
+    
+    .antifuturesFooter .futureItemsDiv {
+        gap: 30px;
+    }
 
     .antifuturesFooter .futureItemsDiv div {
         padding-left: 5%;
         padding-right: 5%;
+        gap: 30px;
     }
 
     .futuresSection {
